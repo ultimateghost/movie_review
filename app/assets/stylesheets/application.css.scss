@@ -1,25 +1,59 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
 body {
   background: #AA4847;
+}
+
+.movie_title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 2.5rem;
+  font-family: verdana;
+  color: white;
+  margin: 0;
+}
+
+.forms {
+  font-family: verdana;
+  text-align: center;
+  padding-top:15px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:40px;
+}
+label {
+  font-family: verdana;
+}
+input[type="text"], textarea {
+  width: 40%;
+}
+textarea {
+  height: 100px;
+}
+input[type="file"] {
+  position: absolute; left:40%; right:60%;
+  padding-bottom:40px;
+}
+
+.actions {
+  position: absolute; left:60%; right:40%;
+}
+
+.links {
+a:link {color:#FF0000; text-decoration:none;}
+a:visited {color:#0000FF; text-decoration:none;}
+a:hover {font-size:20; color:#00FF00; text-decoration:underline;}
+a:active {color:#FF00FF; text-decoration:underline;}
+}
+
+.new_review_title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 2.5rem;
+  font-family: verdana;
+  color: white;
+  margin: 0;
 }
 
 .review_title {
