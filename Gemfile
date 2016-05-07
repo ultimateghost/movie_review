@@ -4,6 +4,8 @@ gem 'devise', '~> 4.1'
 gem 'paperclip', '~> 4.3', '>= 4.3.6'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'searchkick', '~> 1.2', '>= 1.2.1'
+gem 'figaro'
+gem 'aws-sdk'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.2'
