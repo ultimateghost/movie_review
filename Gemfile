@@ -5,7 +5,7 @@ gem 'paperclip', '~> 4.3', '>= 4.3.6'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'searchkick', '~> 1.2', '>= 1.2.1'
 gem 'figaro'
-gem 'aws-sdk'
+gem 'aws-sdk', '< 2.0'
 
 gem 'rails', '4.2.2'
 gem 'sass-rails', '~> 5.0'
